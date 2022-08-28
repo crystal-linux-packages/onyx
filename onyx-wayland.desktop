@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Onyx
+Comment=Onyx gnome session
+Exec=env GNOME_SHELL_SESSION_MODE=onyx /usr/bin/gnome-session --session=onyx
+TryExec=/usr/bin/gnome-shell
+Type=Application
+DesktopNames=onyx:GNOME
+X-GDM-SessionRegisters=true
+X-Ubuntu-Gettext-Domain=gnome-session-3.0
