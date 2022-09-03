@@ -10,7 +10,7 @@ color-scheme = "prefer-dark"
 [org.gnome.desktop.wm.preferences:onyx]
 button-layout = 'appmenu:maximize,minimize,close' 
 
-[org.gnome.nautilus.desktop:onxy]
+[org.gnome.nautilus.desktop:onyx]
 home-icon-visible = true
 trash-icon-visible = true
 volumes-visible = true
