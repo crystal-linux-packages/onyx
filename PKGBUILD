@@ -6,9 +6,8 @@ pkgdesc="The custom gnome session for crystal linux"
 arch=(any)
 url="https://getcryst.al"
 license=('GPL')
-depends=('gnome-shell', 'gnome-shell-extension-desktop-icons-neo', 'gnome-shell-extension-dash-to-panel', 'gnome-shell-extension-arch-update', 'gnome-shell-extension-gsconnect', 'gnome-shell-extension-caffeine', 'gnome-shell-extension-appindicator', 'gnome-shell-extension-space-bar')
+depends=('gnome-shell' 'gnome-shell-extension-desktop-icons-neo' 'gnome-shell-extension-dash-to-panel' 'gnome-shell-extension-arch-update' 'gnome-shell-extension-gsconnect' 'gnome-shell-extension-caffeine' 'gnome-shell-extension-appindicator' 'gnome-shell-extension-space-bar')
 provides=("$_pkgname")
-
 source=("00_onyx.gschema.override"
 	"onyx.desktop"
 	"onyx.json"
@@ -23,5 +22,5 @@ package () {
     install onyx.session ${pkgdir}/usr/share/gnome-session/sessions/onyx.session
     install onyx.json ${pkgdir}/usr/share/gnome-shell/modes/onyx.json
     install onyx-wayland.desktop ${pkgdir}/usr/share/wayland-sessions/onyx-wayland.desktop
-    install onyx.desktop ${pkgdir}/usr/share/xessions/onyx.desktop
+    install onyx.desktop ${pkgdir}/usr/share/xsessions/onyx.desktop
 }
