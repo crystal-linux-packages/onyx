@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=Onyx on xorg
-Comment=The onyx gnome session
+Name=Onyx on Xorg
+Comment=The Onyx GNOME Session
 Exec=env GNOME_SHELL_SESSION_MODE=onyx /usr/bin/gnome-session --session=onyx
 TryExec=/usr/bin/gnome-shell
 Type=Application
