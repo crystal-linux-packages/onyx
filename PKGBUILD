@@ -1,11 +1,11 @@
 pkgname=onyx
 pkgver=1.0
-pkgrel=3
+pkgrel=4
 pkgdesc="The custom GNOME Session for Crystal Linux"
 arch=(any)
 url="https://getcryst.al"
 license=('GPL')
-depends=('gnome' 'gnome-shell-extension-desktop-icons-neo' 'gnome-shell-extension-dash-to-panel' 'gnome-shell-extension-arch-update' 'gnome-shell-extension-gsconnect' 'gnome-shell-extension-caffeine' 'gnome-shell-extension-appindicator' 'xdg-desktop-portal-gtk' 'xdg-desktop-portal-gnome')
+depends=('baobab' 'eog' 'evince' 'file-roller' 'gdm' 'gedit' 'gnome-backgrounds' 'gnome-calculator' 'gnome-calendar' 'gnome-characters' 'gnome-clocks' 'gnome-color-manager' 'gnome-control-center' 'gnome-disk-utility' 'gnome-font-viewer' 'gnome-keyring' 'gnome-menus' 'gnome-settings-daemon' 'gnome-shell' 'gnome-software' 'gnome-system-monitor' 'gnome-terminal' 'gnome-user-docs' 'gnome-user-share' 'gnome-video-effects' 'gnome-weather' 'grilo-plugins' 'gvfs' 'gvfs-afc' 'gvfs-goa' 'gvfs-google' 'gvfs-gphoto2' 'gvfs-mtp' 'gvfs-nfs' 'gvfs-smb' 'malcontent' 'mutter' 'nautilus' 'orca' 'sushi' 'tracker3-miners' 'vino' 'xdg-user-dirs-gtk' 'gnome-shell-extension-desktop-icons-neo' 'gnome-shell-extension-dash-to-panel' 'gnome-shell-extension-arch-update' 'gnome-shell-extension-gsconnect' 'gnome-shell-extension-caffeine' 'gnome-shell-extension-appindicator' 'xdg-desktop-portal-gtk' 'xdg-desktop-portal-gnome')
 source=("00_onyx.gschema.override"
 	"onyx.desktop"
 	"onyx.json"
