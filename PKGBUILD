@@ -1,13 +1,11 @@
-_pkgname=onyx
 pkgname=onyx
 pkgver=1.0
 pkgrel=1
-pkgdesc="The custom gnome session for crystal linux"
+pkgdesc="The custom GNOME Session for Crystal Linux"
 arch=(any)
 url="https://getcryst.al"
 license=('GPL')
 depends=('gnome-shell' 'gnome-shell-extension-desktop-icons-neo' 'gnome-shell-extension-dash-to-panel' 'gnome-shell-extension-arch-update' 'gnome-shell-extension-gsconnect' 'gnome-shell-extension-caffeine' 'gnome-shell-extension-appindicator')
-provides=("$_pkgname")
 source=("00_onyx.gschema.override"
 	"onyx.desktop"
 	"onyx.json"
