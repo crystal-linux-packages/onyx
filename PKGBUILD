@@ -5,7 +5,7 @@ pkgdesc="The custom GNOME Session for Crystal Linux"
 arch=(any)
 url="https://getcryst.al"
 license=('GPL')
-depends=('gnome-shell' 'gnome-shell-extension-desktop-icons-neo' 'gnome-shell-extension-dash-to-panel' 'gnome-shell-extension-arch-update' 'gnome-shell-extension-gsconnect' 'gnome-shell-extension-caffeine' 'gnome-shell-extension-appindicator')
+depends=('gnome' 'gnome-shell-extension-desktop-icons-neo' 'gnome-shell-extension-dash-to-panel' 'gnome-shell-extension-arch-update' 'gnome-shell-extension-gsconnect' 'gnome-shell-extension-caffeine' 'gnome-shell-extension-appindicator' 'xdg-desktop-portal-gtk' 'xdg-desktop-portal-gnome')
 source=("00_onyx.gschema.override"
 	"onyx.desktop"
 	"onyx.json"
