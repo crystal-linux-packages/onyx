@@ -1,6 +1,8 @@
+# Maintainer: bWF0dEBnZXRjcnlzdC5hbAo=
+
 pkgname=onyx
 pkgver=1.0
-pkgrel=5
+pkgrel=6
 pkgdesc="The custom GNOME Session for Crystal Linux"
 arch=(any)
 url="https://getcryst.al"
