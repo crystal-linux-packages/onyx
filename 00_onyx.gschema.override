@@ -8,7 +8,7 @@ automatic-timezone=true
 color-scheme = "prefer-dark"
 
 [org.gnome.desktop.wm.preferences:onyx]
-button-layout = 'appmenu:maximize,minimize,close' 
+button-layout = 'appmenu:minimize,maximize,close' 
 
 [org.gnome.nautilus.desktop:onyx]
 home-icon-visible = true
