@@ -1,6 +1,6 @@
 pkgname=onyx
 pkgver=1.0
-pkgrel=4
+pkgrel=5
 pkgdesc="The custom GNOME Session for Crystal Linux"
 arch=(any)
 url="https://getcryst.al"
