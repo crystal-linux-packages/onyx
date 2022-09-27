@@ -3,12 +3,10 @@
     "stylesheetName": "gnome-shell.css",
     "enabledExtensions": [
         "dash-to-panel@jderose9.github.com",
-        "ding@rastersoft.com",
         "arch-update@RaphaelRochet",
         "gsconnect@andyholmes.github.io",
         "caffeine@patapon.info",
         "appindicatorsupport@rgcjonas.gmail.com",
-        "space-bar@luchrioh"
     ]
 }
 
