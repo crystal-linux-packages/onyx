@@ -3,7 +3,7 @@
     "stylesheetName": "gnome-shell.css",
     "enabledExtensions": [
         "dash-to-panel@jderose9.github.com",
-        "arch-update@RaphaelRochet",
+        "crystal-update@CrystalTeam",
         "gsconnect@andyholmes.github.io",
         "caffeine@patapon.info",
         "appindicatorsupport@rgcjonas.gmail.com",
