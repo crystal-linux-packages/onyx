@@ -2,8 +2,8 @@
 # Contributor: echo -n 'cmNhbmRhdUBnZXRjcnlzdC5hbA==' | base64 -d
 
 pkgname=onyx
-pkgver=1.1
-pkgrel=3
+pkgver=1.2
+pkgrel=1
 pkgdesc="The custom GNOME Session for Crystal Linux"
 arch=('any')
 url="https://getcryst.al"
